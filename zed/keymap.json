@@ -9,6 +9,8 @@
   {
     "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
+      "\\": "pane::SplitDown",
+      "|": "pane::SplitRight",
       "ctrl-w z": "workspace::ToggleZoom",
       "ctrl-w t": "terminal_panel::ToggleFocus",
       "g ]": "editor::GoToDiagnostic",
