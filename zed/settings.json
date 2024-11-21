@@ -1,8 +1,22 @@
 {
+  "languages": {
+    "Python": {
+      "format_on_save": "on",
+      "language_servers": ["pyright", "ruff", "wakatime"],
+      "formatter": [
+        {
+          "code_actions": {
+            "source.organizeImports.ruff": true,
+            "source.fixAll.ruff": true
+          }
+        }
+      ]
+    }
+  },
   "theme": "Kanagawa Wave",
   "base_keymap": "VSCode",
   "buffer_font_family": "BerkeleyMono Nerd Font",
-  "buffer_font_size": 15,
+  "buffer_font_size": 12,
   "vim_mode": true,
   "relative_line_numbers": true,
   "cursor_blink": false,
@@ -14,7 +28,7 @@
   },
   "terminal": {
     "font_family": "BerkeleyMono Nerd Font",
-    "font_size": 15,
+    "font_size": 12,
     "line_height": {
       "custom": 1.7
     }

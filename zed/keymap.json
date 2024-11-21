@@ -2,6 +2,7 @@
   {
     "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
+      "space l d": "editor::GoToDiagnostic",
       "/": "search::FocusSearch",
       "space q": "pane::CloseActiveItem",
       "\\": "pane::SplitDown",
