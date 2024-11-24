@@ -2,7 +2,7 @@
   "languages": {
     "Python": {
       "format_on_save": "on",
-      "language_servers": ["pyright", "ruff", "wakatime"],
+      // "language_servers": ["pyright", "ruff"],
       "formatter": [
         {
           "code_actions": {
@@ -42,6 +42,7 @@
     "enabled": false
   },
   "lsp": {
+    "wakatime": {},
     "gopls": {
       "initialization_options": {
         "gofumpt": true,
