@@ -1,8 +1,11 @@
 {
+  "features": {
+    "inline_completion_provider": "none"
+  },
   "assistant": {
     "default_model": {
-      "provider": "anthropic",
-      "model": "claude-3-5-sonnet-latest"
+      "provider": "ollama",
+      "model": "mistral:latest"
     },
     "version": "2"
   },
