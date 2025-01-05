@@ -6,10 +6,23 @@
     },
     "version": "2"
   },
+  "lsp": {
+    "wakatime": {},
+    "ruff": {
+      "initialization_options": {
+        "settings": {
+          "lineLength": 80,
+          "lint": {
+            "extendSelect": ["I"]
+          }
+        }
+      }
+    }
+  },
   "languages": {
     "Python": {
       "format_on_save": "on",
-      "language_servers": ["basedpyright", "!pyright", "ruff"],
+      "language_servers": ["ruff", "basedpyright", "!pyright"],
       "formatter": [
         {
           "code_actions": {
@@ -47,38 +60,5 @@
   },
   "inlay_hints": {
     "enabled": false
-  },
-  "lsp": {
-    "wakatime": {},
-    "gopls": {
-      "initialization_options": {
-        "gofumpt": true,
-        "usePlaceholders": true,
-        "staticcheck": true,
-        "codelenses": {
-          "gc_details": true,
-          "generate": true,
-          "regenerate_cgo": true,
-          "tidy": true,
-          "upgrade_dependency": true,
-          "vendor": true
-        },
-        "analysis": {
-          "completeUnimported": true,
-          "staticcheck": true,
-          "unusedParams": true,
-          "unusedWrite": true
-        },
-        "hints": {
-          "assignVariableTypes": true,
-          "compositeLiteralFields": true,
-          "compositeLiteralTypes": true,
-          "constantValues": true,
-          "functionTypeParameters": true,
-          "parameterNames": true,
-          "rangeVariableTypes": true
-        }
-      }
-    }
   }
 }
