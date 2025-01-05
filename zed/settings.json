@@ -9,7 +9,7 @@
   "languages": {
     "Python": {
       "format_on_save": "on",
-      "language_servers": ["pyright", "ruff"],
+      "language_servers": ["basedpyright", "!pyright", "ruff"],
       "formatter": [
         {
           "code_actions": {
