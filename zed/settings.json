@@ -2,12 +2,11 @@
   "assistant": {
     "default_model": {
       "provider": "ollama",
-      "model": "wizard-math:7b"
+      "model": "codegemma:latest"
     },
     "version": "2"
   },
   "lsp": {
-    "wakatime": {},
     "ruff": {
       "initialization_options": {
         "settings": {
@@ -22,7 +21,7 @@
   "languages": {
     "Python": {
       "format_on_save": "on",
-      "language_servers": ["ruff", "basedpyright", "!pyright"],
+      "language_servers": ["basedpyright", "!pyright", "ruff"],
       "formatter": [
         {
           "code_actions": {
