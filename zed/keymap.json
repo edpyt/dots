@@ -1,10 +1,12 @@
 [
   {
     "context": "Workspace",
-    "space g g": [
-      "task::Spawn",
-      { "task_name": "gitui", "reveal_target": "center" }
-    ]
+    "bindings": {
+      "space g g": [
+        "task::Spawn",
+        { "task_name": "gitui", "reveal_target": "center" }
+      ]
+    }
   },
   {
     "context": "Editor && VimControl && !VimWaiting && !menu",
