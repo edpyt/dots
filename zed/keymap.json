@@ -1,14 +1,5 @@
 [
   {
-    "context": "Workspace",
-    "bindings": {
-      "space g g": [
-        "task::Spawn",
-        { "task_name": "gitui", "reveal_target": "center" }
-      ]
-    }
-  },
-  {
     "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
       "space l d": "editor::GoToDiagnostic",
@@ -31,7 +22,11 @@
       "space o": "tab_switcher::Toggle",
       "space e": "workspace::ToggleLeftDock",
       "space p": "outline::Toggle",
-      "space v": "editor::GoToDefinitionSplit"
+      "space v": "editor::GoToDefinitionSplit",
+      "space g g": [
+        "task::Spawn",
+        { "task_name": "gitui", "reveal_target": "center" }
+      ]
     }
   },
   {
